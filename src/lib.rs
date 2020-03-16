@@ -3,6 +3,8 @@
 //! This crate contains the [`xkcd_unreachable!()`](xkcd_unreachable) macro, an
 //! adaptation of [`unreachable!()`](unreachable) that prints the message from
 //! [xkcd 2200](https://xkcd.com/2200/).
+//!
+//! ![xkcd 2200](https://imgs.xkcd.com/comics/unreachable_state.png)
 
 #[cfg(test)]
 mod tests {

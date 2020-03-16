@@ -39,3 +39,5 @@ up to this task. I'm so sorry.
 ```
 
 For more information, see the [documentation](https://docs.rs/xkcd_unreachable/).
+
+![xkcd 2200](https://imgs.xkcd.com/comics/unreachable_state.png)
