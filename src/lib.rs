@@ -35,8 +35,8 @@ macro_rules! def_xkcd_unreachable {
     ($dollar:tt, $main_msg:expr) => {
         #[macro_export]
         /// Macro indicating unreachable code. This is equivalent to
-        /// [`unreachable!()`](core::unreachable!), except that it displays the
-        /// message in [xkcd 2200](https://xkcd.com/2200/).
+        /// [`unreachable!()`](unreachable), except that it displays the message
+        /// in [xkcd 2200](https://xkcd.com/2200/).
         ///
         /// ## Example
         /// ```ignore
