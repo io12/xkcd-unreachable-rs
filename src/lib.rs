@@ -39,7 +39,7 @@ macro_rules! def_xkcd_unreachable {
         /// message in (xkcd 2200)[https://xkcd.com/2200/].
         ///
         /// ## Example
-        /// ```
+        /// ```ignore
         /// fn foo(x: Option<i32>) {
         ///     match x {
         ///         Some(n) if n >= 0 => println!("Some(Non-negative)"),
@@ -51,7 +51,7 @@ macro_rules! def_xkcd_unreachable {
         /// ```
         ///
         /// ## Output if reached
-        /// ```
+        /// ```text
         /// ⚠ ERROR
         ///
         /// If you're seeing this, the code is in what
