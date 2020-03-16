@@ -39,7 +39,9 @@ macro_rules! def_xkcd_unreachable {
         /// in [xkcd 2200](https://xkcd.com/2200/).
         ///
         /// ## Example
-        /// ```ignore
+        /// ```rust
+	/// use xkcd_unreachable::xkcd_unreachable;
+	///
         /// fn foo(x: Option<i32>) {
         ///     match x {
         ///         Some(n) if n >= 0 => println!("Some(Non-negative)"),
