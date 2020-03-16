@@ -3,5 +3,10 @@ name = "xkcd_unreachable"
 version = "0.1.0"
 authors = ["Benjamin Levy <blevy@protonmail.com>"]
 edition = "2018"
+description = "A Rust macro xkcd_unreachable!() inspired by https://xkcd.com/2200/"
+repository = "https://github.com/io12/xkcd-unreachable-rs"
+readme = "README.md"
+keywords = ["xkcd", "unreachable", "macro"]
+license = "MIT"
 
 [dependencies]
