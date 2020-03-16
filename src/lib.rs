@@ -1,3 +1,9 @@
+#![warn(missing_docs)]
+
+//! This crate contains the [`xkcd_unreachable!()`](xkcd_unreachable) macro, an
+//! adaptation of [`unreachable!()`](unreachable) that prints the message from
+//! [xkcd 2200](https://xkcd.com/2200/).
+
 #[cfg(test)]
 mod tests {
     use super::*;
