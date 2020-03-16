@@ -15,7 +15,7 @@ mod tests {
     }
 
     #[test]
-    //#[should_panic]
+    #[should_panic]
     fn test_fmt() {
         xkcd_unreachable!("error code: {}", -11)
     }
